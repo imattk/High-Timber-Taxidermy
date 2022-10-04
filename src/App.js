@@ -16,9 +16,9 @@ import Positions from './pages/Positions'
 function App() {
   return (
     <>
-     <Router basename='/High-Timber-Taxidermy'>
+     <Router >
         <Navbar/>
-        <Routes>
+        <Routes basename='/High-Timber-Taxidermy' >
           <Route path='/' element={<Home/>} exact />
           <Route path="/gallery" element={<Gallery />}/> 
           <Route path="/about" element={<About />}/> 
