@@ -16,7 +16,7 @@ import Positions from './pages/Positions'
 function App() {
   return (
     <>
-     <Router basename={process.env.PUBLIC_URL} >
+     <Router basename="/High-Timber-Taxidermy" >
         <Navbar/>
         <Routes >
           <Route path='/' element={<Home/>} exact />
