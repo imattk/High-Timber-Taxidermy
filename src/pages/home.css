@@ -1,0 +1,300 @@
+
+@import url('http://fonts.cdnfonts.com/css/aquire');
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+
+  background-size: cover;
+  background-position: center;
+  font-family: 'Aquire', sans-serif; 
+}
+
+body ul li {
+  list-style: none;
+}
+
+body a {
+  text-decoration: none;
+  color: #ca9866;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #212020;
+  top: 0%;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay span {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.container .loader {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  color: #272626;
+}
+
+.container .loader h1 {
+  font-size: 250px;
+  font-family: 'Aquire', sans-serif;
+  position: absolute;
+  top: -80px;
+  left: -500px;
+}
+
+.container .loader h2 {
+  font-size: 250px;
+  font-family: 'Aquire', sans-serif;;
+  position: absolute;
+  bottom: -30px;
+  right: -130px;
+}
+
+.container img {
+  width: 200px;
+}
+
+.container .wrapper {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.container .wrapper .content .h1 {
+  width: 100%;
+  overflow: hidden;
+}
+.content{
+
+ margin-top: 80px;
+}
+.container .wrapper .content .h1 h1 {
+  
+  font-size: 70px;
+  line-height: 90%;
+ 
+}
+.container .wrapper .content p {
+  font-family: 'Aquire', sans-serif;
+  font-size: 17px;
+  line-height: 109%;
+  width: 70%;
+  padding-top: 20px;
+}
+
+.container .wrapper .content a {
+  display: inline-block;
+  border: 3px solid #fff;
+  border-radius: 19px;
+  padding: 7px 20px;
+  font-size: 19px;
+  margin: 30px 0px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.container .wrapper .content a:hover {
+  background: #ca9866;
+  border: 3px solid #ca9866;
+  color: #252424;
+  text-shadow: none;
+}
+
+.container .wrapper .content .social ul li {
+    margin-top: 165px;
+  display: inline-block;
+}
+
+.container .wrapper .content .social ul li a {
+  
+  padding: 0px 10px;
+  border-radius: 0px;
+  border: none;
+  border-right: 3px solid #fff;
+  
+}
+
+.container .wrapper .img {
+  width: 100%;
+  
+  position: relative;
+  
+}
+
+.container .wrapper .img .subimg {
+  width: 100%;
+  height: 460px;
+  position: absolute;
+  margin-top: 75px;
+  z-index: -5;
+  overflow: hidden;
+}
+
+.container .wrapper .img .subimg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; 
+    
+}
+
+/* .container .wrapper .img .subimg.one .bg {
+  width: 100%;
+  height: 100%;
+  background: #252525;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  
+}  */
+
+/* .container .wrapper .img .subimg.two {
+  width: 64%;
+  height: 250px;
+  top: 200px;
+  position: absolute;
+  left: -150px;
+  
+} */
+
+ /* .container .wrapper .img .subimg.two .bg2 {
+  width: 100%;
+  height: 100%;
+  background: #252525;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+}  */
+
+/* .container .wrapper .img .subimg.three {
+  width: 40%;
+  height: 220px;
+  bottom: 106px;
+  position: absolute;
+  right: 130px;
+  
+} */
+/* 
+ .container .wrapper .img .subimg.three .bg3 {
+  width: 100%;
+  height: 100%;
+  background: #252525;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+}  */
+@media (max-width: 1250px) {
+  .container .wrapper .content .social ul li {
+    margin-top: 50px;
+  }
+
+}
+@media (max-width: 900px) {
+  .container .wrapper .content .h1 h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 850px) {
+  .container .wrapper .content .social ul li {
+    margin-top: 0;
+  }
+  .h1-bottom{
+    margin-bottom: 50px;
+  }
+  .text-bottom{
+    margin-bottom: 50px;
+  }
+  .container .loader h1 {
+    font-size: 100px;
+    top: 0px;
+    left: -500px;
+  }
+  
+  .container .loader h2 {
+    font-size: 100px;
+    bottom: 50px;
+    right: -230px;
+  }
+}
+@media (max-width: 550px) {
+  
+}
+@media (max-width: 450px) {
+   .content{
+    height: 70vh;
+    background-image: url(../Home-Images/b&w-deer.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left -65px bottom 5px ;
+   
+    
+  } 
+  .container .wrapper {
+    margin-top: 50px;
+    padding: 5px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .container .wrapper .content a {
+    margin: 10px;
+
+  }
+  .img{
+    display: none;
+  }
+  .overlay span {
+    margin-left: 5%;
+    justify-content: center;
+    align-content: center;
+  }
+  
+}
+@media (max-height: 690px) {
+  .social{
+    visibility: hidden;
+  }
+}

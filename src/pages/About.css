@@ -1,0 +1,154 @@
+@import url('http://fonts.cdnfonts.com/css/aquire');
+
+body {
+    margin: 0;
+    background-color: #000;
+    color: white;
+    overscroll-behavior: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Aquire', sans-serif;
+    overflow-x: hidden;
+    
+  }
+  .about-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-size: 50px;
+    margin-top: 50px;
+   
+  }
+  .about-img{
+    width: 50vw;
+    position: absolute;
+   justify-content: center;
+   align-items: center;
+   right: 10px;
+   margin-top: 110px;
+  }
+.container-about{
+  width: 100vw;
+  height: 80vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+.about-text{
+  width: 100vw;
+  padding: 50px;
+  font-size: 25px;
+  line-height: 2.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background-img{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin-top: -100px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.form-btn{
+  display: inline-block;
+  border: 3px solid #fff;
+  border-radius: 19px;
+  padding: 7px 20px;
+  font-size: 19px;
+  margin: 30px 0px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+  position: absolute;
+  top: 455px;
+  left: 15%;
+  z-index: 999;
+}
+.form-btn:hover{
+  background: #ca9866;
+  border: 3px solid #ca9866;
+  color: #252424;
+  text-shadow: none;
+}
+.position-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.pos-title{
+  margin: 30px;
+}
+.img-container img{
+
+}
+@media (max-width: 450px) {
+  .background-img{
+      position: absolute;
+      object-fit: cover;
+      height: 100vh;
+      top: 5%;
+    }
+    .container-about{
+      display: flex;
+      flex-direction: column;
+      margin-top: 25px;
+     
+    }
+    .img-container img{
+      width: 100vw;
+      margin-bottom: 20px;
+    }
+    .about-title{
+      margin: 0px 0px 0px 15px;
+      display: flex;
+      text-align: center;
+      
+    }
+    .about-text{
+      padding: 4px;
+    }
+    .about-text p{
+      line-height: 1.5;
+      margin-top: 50px;
+    }
+    .about-img{
+      position: absolute;
+      width: 100vw;
+      right: 0;
+      padding: 0px 15px 0px 0px;
+    }
+    .about-text{
+      margin-top: -300px;
+    }
+}
+@media (max-height: 660px) {
+  .about-title{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+}
+@media (max-width: 380px) {
+  .about-img{
+    top: 150px;
+    padding: 0;
+  }
+  .about-text{
+    margin-top: -50px;
+  }
+  .form-btn{
+    margin-left: -15px;
+    margin-top: 55px;
+  }
+}

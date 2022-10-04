@@ -1,0 +1,52 @@
+.background-img{
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+.contact-container{
+    padding: 10px 20px;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+hr{
+    margin: 20px;
+}
+.contact-container h3{
+    padding: 20px;
+    text-align: center;
+}
+.contact-title{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contact-text{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact1{
+    padding: 10px;
+    font-size: 23px;
+    overflow-wrap: break-word;
+}
+.by{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 450px) {
+    .background-img{
+        position: absolute;
+        object-fit: cover;
+        height: 100vh;
+        top: 5%;
+      }
+}

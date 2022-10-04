@@ -1,0 +1,108 @@
+.background-img{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin-top: 20px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.price-container{
+    position: relative;
+    padding: 0px 50px; 
+}
+.species-title{
+    font-size: 2.5rem;
+}
+.price-list{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.species-container{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 100vh;
+    align-items: center;
+    padding: 0px 50px;
+    font-size: 2rem;
+    
+
+}
+.species-container a{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+.species-container img{
+    width: 350px;
+    padding-right: 10px;
+}
+.pricelist-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.img-container{
+    width: 100vw;
+    margin-left: 15%;
+}
+@media (max-width: 450px) {
+    .background-img{
+        position: absolute;
+        object-fit: cover;
+        height: 100vh;
+        top: 5%;
+      }
+      .img-container{
+        margin-left: 0;
+      }
+      .species-option{
+        display: flex;
+        justify-content: center;
+        
+      }
+      .pricelist-title{
+        font-size: 2rem;
+        width: 100vw;
+        padding: auto;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+     }
+     .species-container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+        
+     }
+     .species-container a{
+        margin-bottom: 20px;
+        margin-left: 10px;
+        width: 100vw;
+        font-size: 1.3rem;
+        justify-content: center;
+
+     }
+     .species-title{
+        padding: 5px;
+        width: 100%;
+     }
+     .price-container{
+        padding: 5px;
+     }
+}
+@media (max-width: 991px) {
+    
+}
