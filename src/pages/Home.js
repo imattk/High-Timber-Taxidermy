@@ -106,7 +106,7 @@ function Home() {
     <>
     <div  ref={overlayMain} className="overlay">
         
-        <span ref={overlayText} className='overlay-text'>adventure into the <strong>High Timber</strong></span>
+        <span ref={overlayText} className='overlay-text'>Adventure into the <strong>High Timber</strong></span>
     </div>
     <div  className="container">
         

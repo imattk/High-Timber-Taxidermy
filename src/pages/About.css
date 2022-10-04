@@ -115,10 +115,11 @@ body {
     }
     .about-text{
       padding: 4px;
+
     }
     .about-text p{
       line-height: 1.5;
-      margin-top: 50px;
+      margin-top: 200px;
     }
     .about-img{
       position: absolute;

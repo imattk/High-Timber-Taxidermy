@@ -157,14 +157,14 @@ function About() {
          <h1 className='about-title' ref={title}>About High Timber</h1>  
               <img className='about-img' src={img10} ref={image10} />
      
-              <img className='about-img' src={img8} ref={image8} />
-              <img className='about-img' src={img7} ref={image7} />
-              <img className='about-img' src={img6} ref={image6} />
-              <img className='about-img' src={img5} ref={image5} />
-              <img className='about-img' src={img4} ref={image4} />
-              <img className='about-img' src={img1} ref={image1} />
-              <img className='about-img' src={img3} ref={image3} />
-              <img className='about-img' src={imgM} ref={imgMain} />
+              <img className='about-img' src={img8} ref={image8} alt="High Timber Working on Deer" />
+              <img className='about-img' src={img7} ref={image7} alt="High Timber Working on Deer" />
+              <img className='about-img' src={img6} ref={image6} alt="High Timber Working on Deer" />
+              <img className='about-img' src={img5} ref={image5} alt="High Timber Working on Deer" />
+              <img className='about-img' src={img4} ref={image4} alt="High Timber Working on Deer" />
+              <img className='about-img' src={img1} ref={image1} alt="High Timber Working on Deer" />
+              <img className='about-img' src={img3} ref={image3} alt="High Timber Working on Deer" />
+              <img className='about-img' src={imgM} ref={imgMain} alt="High Timber Working on Deer" />
       
     </div>
     <a className='form-btn' onClick={PositionClick} ref={positionBtn}>Explore Form Positions</a>

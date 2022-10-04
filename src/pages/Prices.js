@@ -112,18 +112,18 @@ function Prices() {
   return (
    <>
          <div>
-            <img className='background-img' src={elkbg} ref={elkbackground} />
+            <img className='background-img' src={elkbg} ref={elkbackground} alt="Elk" />
         </div>
     <div className='div-bg' >
     <h1 className='pricelist-title' ref={htprice}>High Timber Taxidermy Price List</h1>
         <div className='species-container'>
         
-        <img src={elkBugle} onClick={NaClick} ref={elk} />
+        <img src={elkBugle} onClick={NaClick} ref={elk} alt="Elk" />
         <a className='species-option' ref={na} onClick={NaClick} >North American</a>
-        <img src={kudu} ref={ku} onClick={AfClick} />
+        <img src={kudu} ref={ku} onClick={AfClick} alt="Kudu" />
         <a className='species-option' ref={af} onClick={AfClick} >African and Exotics</a>
         <img src={stag} ref={sta} onClick={NzClick} />
-        <a className='species-option' ref={nz} onClick={NzClick} >New Zeland and Others</a>
+        <a className='species-option' ref={nz} onClick={NzClick} alt="Stag" >New Zeland and Others</a>
         </div>
     
       
