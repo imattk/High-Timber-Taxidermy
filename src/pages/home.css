@@ -255,7 +255,7 @@ body a {
 @media (max-width: 550px) {
   
 }
-@media (max-width: 450px) {
+@media (max-width: 650px) {
    .content{
     height: 70vh;
     background-image: url(../Home-Images/b&w-deer.jpg);
